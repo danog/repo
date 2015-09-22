@@ -1,0 +1,84 @@
+#!/usr/bin/env bash
+[ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ "${TRAVIS_BRANCH}" = "master" ] && {
+# Setup everything 
+sudo apt-get update &>/dev/null
+sudo apt-get install reprepro gnupg expect tree -y >/dev/null
+
+gpg --import s.key
+mkdir temp
+temp="$PWD/temp"
+echo '#!/usr/bin/expect -f
+set timeout 2
+set passphrase "'${gpg}'"
+spawn reprepro [lindex $argv 0] [lindex $argv 1] [lindex $argv 2] [lindex $argv 3]
+expect {
+ "*passphrase:*" {
+  send -- "$passphrase\r"
+  }
+} expect {
+ "*passphrase:*" {
+  send -- "$passphrase\r"
+  }
+} 
+interact
+'>../reprepro
+reprepro="$PWD/../reprepro"
+chmod +x ${reprepro}
+
+gitsync() {
+branch="${1}"
+shift
+[ "${branch}" != "master" ] && {
+echo "branches:
+  except:
+    - ${branch}" > .travis.yml
+echo "vendor
+s.key" >.gitignore
+}
+git add -A
+git commit -am "${*}"
+git push -fq origin ${branch}
+
+}
+
+git clone https://${GH_TOKEN}@github.com/danog/repo.git
+cd repo
+git config --global user.name "${GIT_NAME}"
+git config --global user.email "${GIT_EMAIL}"
+git config --global push.default simple
+git log -1 --pretty=%B | grep -q madebytravisci && exit 0
+root="$PWD"
+########################################
+cd reprepro
+ls $root/debs | grep -q '\.deb' && {
+# Import debs into reprepro
+
+for f in $root/debs/*.deb; do
+ name="$(dpkg --info ${f} | grep Package | sed 's/.*Package:\s//')"
+ ${reprepro} remove lenny ${name} && ${reprepro} includedeb lenny ${f} && rm $f
+ total="${total}, ${name}"
+done
+}
+tree  -T "Daniil's repo" -C -H http://repo.daniil.it -o tree.html
+cp -a * $temp
+
+# Generate website
+cd $root/jekyll
+echo "---
+layout: default
+---
+">index.md
+cat ../README.md >> index.md
+cp -a * $temp
+cd $root
+
+gitsync master OK madebytravisci
+
+# Upload everything
+git branch -d gh-pages
+git checkout --orphan gh-pages
+git rm -rf .
+cp -a $temp/* .
+gitsync gh-pages "Added/updated ${total}"
+
+}
