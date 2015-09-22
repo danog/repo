@@ -12,13 +12,13 @@ set timeout 2
 set passphrase "'${gpg}'"
 spawn reprepro [lindex $argv 0] [lindex $argv 1] [lindex $argv 2] [lindex $argv 3]
 expect {
- "*passphrase:*" {
-  send -- "$passphrase\r"
-  }
+	"*passphrase:*" {
+		send -- "$passphrase\r"
+	}
 } expect {
- "*passphrase:*" {
-  send -- "$passphrase\r"
-  }
+	"*passphrase:*" {
+		send -- "$passphrase\r"
+	}
 } 
 interact
 '>../reprepro
