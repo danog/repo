@@ -4,8 +4,8 @@
 sudo apt-get update &>/dev/null
 sudo apt-get install reprepro gnupg expect tree -y >/dev/null
 
-gpg --import s.key
 tar -xzf enc.tar.gz
+gpg --import s.key
 mkdir temp
 temp="$PWD/temp"
 
