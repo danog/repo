@@ -13,5 +13,5 @@ addons:
 script: ". ./script/cibuild"
 
 before_install:
-- openssl aes-256-cbc -K $encrypted_af135e3dfc23_key -iv $encrypted_af135e3dfc23_iv
-  -in enc.tar.gz.enc -out enc.tar.gz -d
+- openssl aes-256-cbc -pass "pass:$pass"
+  -in enc.tar.gz.enc -out enc.tar.gz -d -a
