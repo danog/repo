@@ -8,7 +8,7 @@ gpg --import s.key
 mkdir temp
 temp="$PWD/temp"
 
-reprepro="$PWD/script"
+reprepro="$PWD/ex"
 chmod +x ${reprepro}
 
 gitsync() {
