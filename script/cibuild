@@ -37,7 +37,7 @@ git log -1 --pretty=%B | grep -q madebytravisci && exit 0
 root="$PWD"
 ########################################
 cd reprepro
-ls $root/debs | grep -q '\.deb' && {
+[ "$(ls $root/debs)" != "" ] && {
 # Import debs into reprepro
 
 for f in $root/debs/*; do {
