@@ -40,11 +40,21 @@ cd reprepro
 ls $root/debs | grep -q '\.deb' && {
 # Import debs into reprepro
 
-for f in $root/debs/*.deb; do
- name="$(dpkg --info ${f} | grep Package | sed 's/.*Package:\s//')"
- ${reprepro} remove lenny ${name} && ${reprepro} includedeb lenny ${f} && rm $f
- total="${total}, ${name}"
-done
+for f in $root/debs/*; do {
+deb="$(ls $f/*.deb)"
+changes="$(ls $f/*.changes)"
+dsc="$(ls $f/*.dsc)"
+
+name="$(dpkg --info ${deb} | grep Package | sed 's/.*Package:\s//')"
+${reprepro} remove lenny ${name}
+
+[ "$changes" != "" ] && {
+${reprepro} include lenny ${changes} && rm -r $f
+} || {
+${reprepro} includedeb lenny ${deb} && ${reprepro} includedsc lenny ${dsc} && rm -r $f
+}
+total="${total}, ${name}"
+}; done
 }
 tree  -T "Daniil's repo" -C -H http://repo.daniil.it -o tree.html
 cp -a * $temp
