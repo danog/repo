@@ -1,17 +1,17 @@
 Package: video-dl
-Version: 3.3.93
+Version: 3.3.96
 Architecture: all
 Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
-Installed-Size: 29
+Installed-Size: 62
 Depends: wget, bash, sed
 Homepage: http://daniil.it/video-dl
 Priority: optional
 Section: misc
-Filename: pool/main/v/video-dl/video-dl_3.3.93_all.deb
-Size: 15738
-SHA256: 9192ab61f272ed45392433719d6486e7ff31fc507f8a85d9b516436ea45f4daf
-SHA1: c6f86a87bdc1343ececaa38d8e95f06ab5b9abea
-MD5sum: bfada0a539259968e479aa4f6ed5c6a3
+Filename: pool/main/v/video-dl/video-dl_3.3.96_all.deb
+Size: 15142
+SHA256: 01efc043d20bc0981cb2253ed94700e4556e94b08cd6fa0f7826ae110fe49357
+SHA1: 0999b9c8427376d11a38f3de1e86c9d217d7d811
+MD5sum: fc95f84ab33540d3051398b681a95734
 Description: Video Download script
  This bash script can be used to download videos from any website, including Youtube, Rai.tv, Mediaset, Witty tv and LA7. The API of this script is constantly updated to support even more websites. For more info see the manpages.
 
