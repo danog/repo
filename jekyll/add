@@ -3,4 +3,4 @@
 which sudo &>/dev/null && sudo sh -c "echo" && sudo=sudo || sudo="su -c"
 echo "Adding repo..."
 
-$sudo 'sh -c "wget -q -O /etc/apt/sources.list.d/daniil.list http://dano.cu.cc/1IJrcd1 && wget -q -O - http://dano.cu.cc/1Aci9Qp | apt-key add - && apt-key adv --recv-keys --keyserver keys.gnupg.net 72B97FD1D9672C93 && apt-get update"'
+$sudo sh -c "wget -q -O /etc/apt/sources.list.d/daniil.list http://dano.cu.cc/1IJrcd1 && wget -q -O - http://dano.cu.cc/1Aci9Qp | apt-key add - && apt-key adv --recv-keys --keyserver keys.gnupg.net 72B97FD1D9672C93 && apt-get update"
