@@ -76,6 +76,7 @@ git branch -d gh-pages
 git checkout --orphan gh-pages
 git rm -rf .
 cp -a $temp/* .
+cp -a dists/lenny dists/ios
 gitsync gh-pages "Added/updated ${total}"
 
 }
