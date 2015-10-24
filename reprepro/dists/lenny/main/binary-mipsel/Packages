@@ -49,19 +49,19 @@ Description: Script to download Rai.TV videos
  This package installs the rai.sh bash script that allows you to download videos from the Italian Rai.TV website.
 
 Package: video-dl
-Version: 3.3.186
+Version: 3.3.192
 Architecture: all
 Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
-Installed-Size: 31
+Installed-Size: 66
 Depends: wget, bash, sed
 Homepage: http://daniil.it/video-dl
 Priority: optional
 Section: misc
-Filename: pool/main/v/video-dl/video-dl_3.3.186_all.deb
-Size: 17020
-SHA256: adaea2a1d0a97d6136eb285bf841745f59750f04d5b2b7ca9f4e48f40781b618
-SHA1: 24b48114bae84ef5352b3c91ce48e2ffc1141368
-MD5sum: c24ab64ae9457bb21392bee881bee8af
+Filename: pool/main/v/video-dl/video-dl_3.3.192_all.deb
+Size: 17110
+SHA256: 796c110efdb2efdb5e31d455f98351c9e359719366ee1ec5bb44d312d6be26e6
+SHA1: fb8a804dbbc327946a9bcb06a3a57ce0043f6205
+MD5sum: ed8a10267928b4ce7f5b0d804a840f7b
 Description: Video Download script
  This bash script can be used to download videos from any website, including Youtube, Rai.tv, Mediaset, Witty tv and LA7. The API of this script is constantly updated to support even more websites. For more info see the manpages.
 
