@@ -1,5 +1,5 @@
 Package: learn-bash
-Version: 1.1.25
+Version: 1.1.27
 Architecture: all
 Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
 Installed-Size: 10
@@ -7,11 +7,11 @@ Depends: wget, bash, sed
 Homepage: http://daniil.it/learn-bash
 Priority: optional
 Section: misc
-Filename: pool/main/l/learn-bash/learn-bash_1.1.25_all.deb
-Size: 5646
-SHA256: c19d239dfcc88071090efa34c0a419aade5eecdc957c80ec4999ee1c92760b8e
-SHA1: 0844da95e7159d00f0430cc336266bf8eaa3b32d
-MD5sum: 208369f18daa8617d26a5ed0f123d3d8
+Filename: pool/main/l/learn-bash/learn-bash_1.1.27_all.deb
+Size: 5840
+SHA256: 4c70b25bdea42cd40c5c6a7a12f2c7ff54756c3309a85e86f02a565db6068968
+SHA1: ce2ca02111033566ab0a6bdebed2829b2182e410
+MD5sum: adb5c6b5cd7994beda6625b55a09529f
 Description: Script to learn bash scripting. Created by Daniil Gentili.
 
 Package: video-dl
