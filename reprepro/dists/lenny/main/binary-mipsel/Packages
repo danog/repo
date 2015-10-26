@@ -14,6 +14,22 @@ MD5sum: ffdc5a3c915215e5c2c10b8de1c537a0
 Description: Configuration and upgrade tools for danuntu
  Includes danuntu-update (script to update danuntu and its packages) and danuntu-config (script to configure danuntu during initial installation and maybe later).
 
+Package: learn-bash
+Version: 1.1.25
+Architecture: all
+Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Installed-Size: 10
+Depends: wget, bash, sed
+Homepage: http://daniil.it/learn-bash
+Priority: optional
+Section: misc
+Filename: pool/main/l/learn-bash/learn-bash_1.1.25_all.deb
+Size: 5646
+SHA256: c19d239dfcc88071090efa34c0a419aade5eecdc957c80ec4999ee1c92760b8e
+SHA1: 0844da95e7159d00f0430cc336266bf8eaa3b32d
+MD5sum: 208369f18daa8617d26a5ed0f123d3d8
+Description: Script to learn bash scripting. Created by Daniil Gentili.
+
 Package: mediaset-dl
 Version: 1.1-1
 Architecture: all
