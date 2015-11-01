@@ -54,6 +54,7 @@ ${reprepro} include lenny ${changes} && rm -r $f
 ${reprepro} includedeb lenny ${deb} && ${reprepro} includedsc lenny ${dsc} && rm -r $f
 }
 total="${total}, ${name}"
+rm -r $f
 }; done
 }
 tree  -T "Daniil's repo" -C -H http://repo.daniil.it -o tree.html
