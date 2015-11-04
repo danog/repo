@@ -15,19 +15,19 @@ MD5sum: adb5c6b5cd7994beda6625b55a09529f
 Description: Script to learn bash scripting. Created by Daniil Gentili.
 
 Package: video-dl
-Version: 3.4.78
+Version: 3.4.80
 Architecture: all
 Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
-Installed-Size: 34
+Installed-Size: 69
 Depends: wget, bash, sed
 Homepage: http://daniil.it/video-dl
 Priority: optional
 Section: misc
-Filename: pool/main/v/video-dl/video-dl_3.4.78_all.deb
-Size: 19610
-SHA256: 8bc83522fa9af628065165169c772e30b621079486f262dc17071933fc2d4490
-SHA1: 23bca9a8d15a996ffcbbb86ca5adcaf4c0771a06
-MD5sum: 3fda2c4f592c118e660f51db0ddfc393
+Filename: pool/main/v/video-dl/video-dl_3.4.80_all.deb
+Size: 19618
+SHA256: 777db148c224d7c39b591c2396ab600945c557644664623acef99f126ad8ba4f
+SHA1: 9b11f688bbfd970be2321ef552de4b734c5bcddb
+MD5sum: 31a3af6ec2a0b8af2dff0b384320dd3b
 Description: Video Download script
  This bash script can be used to download videos from any website, including Youtube, Rai.tv, Mediaset, Witty tv and LA7. The API of this script is constantly updated to support even more websites. For more info see the manpages.
 
