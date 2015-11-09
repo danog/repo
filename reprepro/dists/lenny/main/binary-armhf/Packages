@@ -156,19 +156,19 @@ MD5sum: 5fcf3617e2896363bdfc3a82c51f85e9
 Description: libpam0g,libfreetype6,libjpeg8,libjpeg-turbo8,zlibc,xinit,dbus,libdbus-1-3,libx11-6,libxcursor1,libxrandr2,libxdamage1,libxcomposite1,libxss1,luajit,libluajit-5.1-2,libxp6,libxext6,libxinerama1,libxkbfile1,libxtst6,libxcb-keysyms1,libpulse0,libsndfile1,libxcb-shape0,libxcb1,libblkid1,libmount1,libudev1,libtiff5,giflib-tools,libgif4,libspectre1,libpoppler44,librsvg2-2,libraw9,libxine2,curl,openssl,libssl1.0.0,libfribidi0,libglu1-mesa,libgstreamer1.0-0,libbullet-dev,libgstreamer-plugins-base1.0-0,libvlc5,libpng12-0,libxrender1,libxfixes3,efl,efl,emotion_generic_players,evas_generic_loaders,elementary
 
 Package: video-dl
-Version: 3.4.96
+Version: 3.4.99
 Architecture: all
 Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
-Installed-Size: 33
+Installed-Size: 34
 Depends: wget, bash, sed
 Homepage: http://daniil.it/video-dl
 Priority: optional
 Section: misc
-Filename: pool/main/v/video-dl/video-dl_3.4.96_all.deb
-Size: 19396
-SHA256: c70d8e01c054a3bddfe0b9b33bccbb43183c424c243fec5386353004381409e3
-SHA1: 1e1c655c696e840047af2771b2484ec8ae999406
-MD5sum: 711e42e60771071134ab93602d20cf4a
+Filename: pool/main/v/video-dl/video-dl_3.4.99_all.deb
+Size: 19438
+SHA256: af3e45a60463a48113abcd67a4d7f3a1996bf8ec60f5e126b9732710d8c3d857
+SHA1: aecd0bb2ea463278963fc6c167f17fa1c406ce8a
+MD5sum: 69aba8176f872c6b7e7ac7079745948e
 Description: Video Download script
  This bash script can be used to download videos from any website, including Youtube, Rai.tv, Mediaset, Witty tv and LA7. The API of this script is constantly updated to support even more websites. For more info see the manpages.
 
