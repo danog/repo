@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Fri, 01 Jan 2016 13:27:51 +0000
+Source: video-dl
+Binary: video-dl
+Architecture: source all
+Version: 3.4.242
+Distribution: lenny
+Urgency: low
+Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Changed-By: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Description: 
+ video-dl   - Video Download script
+Changes: 
+ video-dl (3.4.242) lenny; urgency=low
+ .
+   * Welcome 2016!
+Checksums-Sha1: 
+ 1334081e524b110a88c2eabd2642af5fd2c1d158 1447 video-dl_3.4.242.dsc
+ 077cded612dbcf2a149ef54cce129800f963be01 19300 video-dl_3.4.242.tar.gz
+ d81b93a5f94269477afb80ffc72a22e322e6929d 22938 video-dl_3.4.242_all.deb
+Checksums-Sha256: 
+ b5bfe54bb6f646d231e5c1296b5b292c5b0da475bcb17901441029753a58572c 1447 video-dl_3.4.242.dsc
+ c86f4d69e85ea97d12f6366bc80f775cfaa524eae0336ce67fc0d9b00c401dce 19300 video-dl_3.4.242.tar.gz
+ ce429020a4e7dff6e899ec623c310ba50a327406d323b21117e325ee12889470 22938 video-dl_3.4.242_all.deb
+Files: 
+ 02a5a639e41860ae87bec377246c9fa6 1447 misc optional video-dl_3.4.242.dsc
+ e258109cebe694a95b8208d71b10dea7 19300 misc optional video-dl_3.4.242.tar.gz
+ 85627d1bfde9927672bc8b010c7fd952 22938 misc optional video-dl_3.4.242_all.deb
