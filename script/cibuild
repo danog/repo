@@ -2,7 +2,7 @@
 [ "${TRAVIS_PULL_REQUEST}" = "false" ] && [ "${TRAVIS_BRANCH}" = "master" ] && {
 # Setup everything 
 sudo apt-get update &>/dev/null
-sudo apt-get install reprepro gnupg expect tree -y >/dev/null
+sudo apt-get install reprepro gnupg expect tree tmux -y >/dev/null
 
 tar -xzf enc.tar.gz
 gpg --allow-secret-key-import --import mygpgkey_sec.gpg
