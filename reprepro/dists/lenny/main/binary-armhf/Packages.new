@@ -1,0 +1,157 @@
+Package: danuntu-tools
+Version: 1.0
+Architecture: all
+Maintainer: Daniil Gentili <daniil@daniil.it>
+Installed-Size: 40
+Homepage: http://danuntu.magix.net
+Priority: optional
+Section: unknown
+Filename: pool/main/d/danuntu-tools/danuntu-tools_1.0_all.deb
+Size: 5848
+SHA256: 70c903d768ae7e71f294bf825ef30ec08412a4e668966d1cce5e757ced4ac866
+SHA1: 0c1c056483c08d02b4072db41324df02cba5611e
+MD5sum: ffdc5a3c915215e5c2c10b8de1c537a0
+Description: Configuration and upgrade tools for danuntu
+ Includes danuntu-update (script to update danuntu and its packages) and danuntu-config (script to configure danuntu during initial installation and maybe later).
+
+Package: efl
+Installed-Size: 18740
+Maintainer: daniil.gentili.dg@gmail.com
+Architecture: armhf
+Version: 1.14.2-1
+Provides: efl
+Priority: extra
+Section: checkinstall
+Filename: pool/main/e/efl/efl_1.14.2-1_armhf.deb
+Size: 3168292
+SHA256: 58bfb553993fc0d298c244405f7a38b9cf50df04e7694497376c0f9bf308f407
+SHA1: a3adbad1d51d2eff7d462d5136be47f219c504fc
+MD5sum: ab634926d6226ea9d1dc4eb228620dac
+Description: libpam0g,libfreetype6,libjpeg8,libjpeg-turbo8,zlibc,xinit,dbus,libdbus-1-3,libx11-6,libxcursor1,libxrandr2,libxdamage1,libxcomposite1,libxss1,luajit,libluajit-5.1-2,libxp6,libxext6,libxinerama1,libxkbfile1,libxtst6,libxcb-keysyms1,libpulse0,libsndfile1,libxcb-shape0,libxcb1,libblkid1,libmount1,libudev1,libtiff5,giflib-tools,libgif4,libspectre1,libpoppler44,librsvg2-2,libraw9,libxine2,curl,openssl,libssl1.0.0,libfribidi0,libglu1-mesa,libgstreamer1.0-0,libbullet-dev,libgstreamer-plugins-base1.0-0,libvlc5,libpng12-0,libxrender1,libxfixes3,efl
+
+Package: elementary
+Installed-Size: 23344
+Maintainer: daniil.gentili.dg@gmail.com
+Architecture: armhf
+Version: 1.14.2-1
+Provides: elementary
+Priority: extra
+Section: checkinstall
+Filename: pool/main/e/elementary/elementary_1.14.2-1_armhf.deb
+Size: 12590830
+SHA256: 1c4d14a33c82f99a5a19633b66620b0c60ed68a76785da0eb489de385e1e563a
+SHA1: 5a0d66e6b4ceb4e0c0ae3d190bd432bf6b4d3769
+MD5sum: fd60c4a09e2876ab042d60a5344975b1
+Description: libpam0g,libfreetype6,libjpeg8,libjpeg-turbo8,zlibc,xinit,dbus,libdbus-1-3,libx11-6,libxcursor1,libxrandr2,libxdamage1,libxcomposite1,libxss1,luajit,libluajit-5.1-2,libxp6,libxext6,libxinerama1,libxkbfile1,libxtst6,libxcb-keysyms1,libpulse0,libsndfile1,libxcb-shape0,libxcb1,libblkid1,libmount1,libudev1,libtiff5,giflib-tools,libgif4,libspectre1,libpoppler44,librsvg2-2,libraw9,libxine2,curl,openssl,libssl1.0.0,libfribidi0,libglu1-mesa,libgstreamer1.0-0,libbullet-dev,libgstreamer-plugins-base1.0-0,libvlc5,libpng12-0,libxrender1,libxfixes3,efl,efl,emotion_generic_players,evas_generic_loaders
+
+Package: emotion-generic-players
+Installed-Size: 96
+Maintainer: root@raspberrypi
+Architecture: armhf
+Version: 1.14.0-1
+Depends: libpam0g,libfreetype6,libjpeg8,libjpeg-turbo8,zlibc,xinit,dbus,libdbus-1-3,libx11-6,libxcursor1,libxrandr2,libxdamage1,libxcomposite1,libxss1,luajit,libluajit-5.1-2,libxp6,libxext6,libxinerama1,libxkbfile1,libxtst6,libxcb-keysyms1,libpulse0,libsndfile1,libxcb-shape0,libxcb1,libblkid1,libmount1,libudev1,libtiff5,giflib-tools,libgif4,libspectre1,libpoppler44,librsvg2-2,libraw9,libxine2,curl,openssl,libssl1.0.0,libfribidi0,libglu1-mesa,libgstreamer1.0-0,libbullet-dev,libgstreamer-plugins-base1.0-0,libvlc5,libpng12-0,libxrender1,libxfixes3,libvlc-dev (>= 2.0)
+Provides: emotion-generic-players
+Priority: extra
+Section: checkinstall
+Filename: pool/main/e/emotion-generic-players/emotion-generic-players_1.14.0-1_armhf.deb
+Size: 16126
+SHA256: a3cecddc0656ec46e2843ad5149c627da2ea6a1bea7c1ccb668724dc69bd59d3
+SHA1: 45532cf29f6b3b431f861187aac1cc994b9518af
+MD5sum: 10cc4812b71431ce362fb7c74b092b7d
+Description: libpam0g,libfreetype6,libjpeg8,libjpeg-turbo8,zlibc,xinit,dbus,libdbus-1-3,libx11-6,libxcursor1,libxrandr2,libxdamage1,libxcomposite1,libxss1,luajit,libluajit-5.1-2,libxp6,libxext6,libxinerama1,libxkbfile1,libxtst6,libxcb-keysyms1,libpulse0,libsndfile1,libxcb-shape0,libxcb1,libblkid1,libmount1,libudev1,libtiff5,giflib-tools,libgif4,libspectre1,libpoppler44,librsvg2-2,libraw9,libxine2,curl,openssl,libssl1.0.0,libfribidi0,libglu1-mesa,libgstreamer1.0-0,libbullet-dev,libgstreamer-plugins-base1.0-0,libvlc5,libpng12-0,libxrender1,libxfixes3,efl,efl
+
+Package: enlightenment
+Installed-Size: 32024
+Maintainer: daniil.gentili.dg@gmail.com
+Architecture: armhf
+Version: 0.19.7-1
+Provides: enlightenment
+Priority: extra
+Section: checkinstall
+Filename: pool/main/e/enlightenment/enlightenment_0.19.7-1_armhf.deb
+Size: 23414744
+SHA256: 28e40244254866e9f523ec44771dbad442cebc82552afe18a4897492f807caf2
+SHA1: 715f924ebe1163e4965ddc09c76ee56d724b77c3
+MD5sum: f4ed416dbd980d85a4743642f3c7b273
+Description: libpam0g,libfreetype6,libjpeg8,libjpeg-turbo8,zlibc,xinit,dbus,libdbus-1-3,libx11-6,libxcursor1,libxrandr2,libxdamage1,libxcomposite1,libxss1,luajit,libluajit-5.1-2,libxp6,libxext6,libxinerama1,libxkbfile1,libxtst6,libxcb-keysyms1,libpulse0,libsndfile1,libxcb-shape0,libxcb1,libblkid1,libmount1,libudev1,libtiff5,giflib-tools,libgif4,libspectre1,libpoppler44,librsvg2-2,libraw9,libxine2,curl,openssl,libssl1.0.0,libfribidi0,libglu1-mesa,libgstreamer1.0-0,libbullet-dev,libgstreamer-plugins-base1.0-0,libvlc5,libpng12-0,libxrender1,libxfixes3,efl,efl,emotion_generic_players,evas_generic_loaders,elementary
+
+Package: evas-generic-loaders
+Installed-Size: 124
+Maintainer: daniil.gentili.dg@gmail.com
+Architecture: armhf
+Version: 1.14.0-1
+Provides: evas-generic-loaders
+Priority: extra
+Section: checkinstall
+Filename: pool/main/e/evas-generic-loaders/evas-generic-loaders_1.14.0-1_armhf.deb
+Size: 27122
+SHA256: ec05a24c560bc0b61dfcd119f3ecdbfc89320adee1295d81e5cd72e8b65a49b2
+SHA1: 1e26aae4168bf26e47bcde484e3b7692c00a95bf
+MD5sum: 46225cafd002790b492dae1f4815f91f
+Description: libpam0g,libfreetype6,libjpeg8,libjpeg-turbo8,zlibc,xinit,dbus,libdbus-1-3,libx11-6,libxcursor1,libxrandr2,libxdamage1,libxcomposite1,libxss1,luajit,libluajit-5.1-2,libxp6,libxext6,libxinerama1,libxkbfile1,libxtst6,libxcb-keysyms1,libpulse0,libsndfile1,libxcb-shape0,libxcb1,libblkid1,libmount1,libudev1,libtiff5,giflib-tools,libgif4,libspectre1,libpoppler44,librsvg2-2,libraw9,libxine2,curl,openssl,libssl1.0.0,libfribidi0,libglu1-mesa,libgstreamer1.0-0,libbullet-dev,libgstreamer-plugins-base1.0-0,libvlc5,libpng12-0,libxrender1,libxfixes3,efl,efl,emotion_generic_players
+
+Package: learn-bash
+Version: 1.1.27
+Architecture: all
+Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Installed-Size: 10
+Depends: wget, bash, sed
+Homepage: http://daniil.it/learn-bash
+Priority: optional
+Section: misc
+Filename: pool/main/l/learn-bash/learn-bash_1.1.27_all.deb
+Size: 5840
+SHA256: 4c70b25bdea42cd40c5c6a7a12f2c7ff54756c3309a85e86f02a565db6068968
+SHA1: ce2ca02111033566ab0a6bdebed2829b2182e410
+MD5sum: adb5c6b5cd7994beda6625b55a09529f
+Description: Script to learn bash scripting. Created by Daniil Gentili.
+
+Package: mediaset-dl
+Version: 1.1-1
+Architecture: all
+Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Installed-Size: 51
+Depends: wget
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: tools
+Filename: pool/main/m/mediaset-dl/mediaset-dl_1.1-1_all.deb
+Size: 7872
+SHA256: 0b034ef03b8727889365b04cc685312190fac1ab184100ade5868fd87dc076c2
+SHA1: 3177e48381dcb01cd42533a3eee92a1199326663
+MD5sum: edc5792560df244cd34410132304c62b
+Description: Mediaset downloader script
+ This script can be used to download videos from the italian Mediaset website.
+
+Package: raitv-bash-dl
+Version: 1.1.4
+Architecture: all
+Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Installed-Size: 64
+Depends: wget
+Homepage: http://git.daniil.eu.org/rai.tv-bash-dl
+Priority: optional
+Section: misc
+Filename: pool/main/r/raitv-bash-dl/raitv-bash-dl_1.1.4_all.deb
+Size: 11936
+SHA256: cb06504925485c15edc1389758fa1d1d242d1bcf78ee6ae06db4d39b468c454e
+SHA1: bb2744f6854d5335abb1722142dbd061b6fe3b4e
+MD5sum: d8cdbcdce96f6b5b98292ac5debf02da
+Description: Script to download Rai.TV videos
+ This package installs the rai.sh bash script that allows you to download videos from the Italian Rai.TV website.
+
+Package: terminology
+Installed-Size: 9320
+Maintainer: daniil.gentili.dg@gmail.com
+Architecture: armhf
+Version: 0.8.0-1
+Provides: terminology
+Priority: extra
+Section: checkinstall
+Filename: pool/main/t/terminology/terminology_0.8.0-1_armhf.deb
+Size: 2917224
+SHA256: 204edb904f12287a8228f405f899a55ccc5af0386b6ec0b00d14928a9a3f549b
+SHA1: 22376423650ef4abde19b50678024a2e06660bc2
+MD5sum: 5fcf3617e2896363bdfc3a82c51f85e9
+Description: libpam0g,libfreetype6,libjpeg8,libjpeg-turbo8,zlibc,xinit,dbus,libdbus-1-3,libx11-6,libxcursor1,libxrandr2,libxdamage1,libxcomposite1,libxss1,luajit,libluajit-5.1-2,libxp6,libxext6,libxinerama1,libxkbfile1,libxtst6,libxcb-keysyms1,libpulse0,libsndfile1,libxcb-shape0,libxcb1,libblkid1,libmount1,libudev1,libtiff5,giflib-tools,libgif4,libspectre1,libpoppler44,librsvg2-2,libraw9,libxine2,curl,openssl,libssl1.0.0,libfribidi0,libglu1-mesa,libgstreamer1.0-0,libbullet-dev,libgstreamer-plugins-base1.0-0,libvlc5,libpng12-0,libxrender1,libxfixes3,efl,efl,emotion_generic_players,evas_generic_loaders,elementary
+

@@ -35,6 +35,7 @@
 	├── <a class="DIR" href="http://repo.daniil.it/db/">db</a><br>
 	│   ├── <a class="NORM" href="http://repo.daniil.it/db/checksums.db">checksums.db</a><br>
 	│   ├── <a class="NORM" href="http://repo.daniil.it/db/contents.cache.db">contents.cache.db</a><br>
+	│   ├── <a class="NORM" href="http://repo.daniil.it/db/lockfile">lockfile</a><br>
 	│   ├── <a class="NORM" href="http://repo.daniil.it/db/packages.db">packages.db</a><br>
 	│   ├── <a class="NORM" href="http://repo.daniil.it/db/references.db">references.db</a><br>
 	│   ├── <a class="NORM" href="http://repo.daniil.it/db/release.caches.db">release.caches.db</a><br>
@@ -46,48 +47,70 @@
 	│   &nbsp;&nbsp;&nbsp; │   ├── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/binary-amd64/">binary-amd64</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-amd64/Packages">Packages</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-amd64/Packages.gz">Packages.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-amd64/Packages.gz.new">Packages.gz.new</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-amd64/Packages.new">Packages.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-amd64/Release">Release</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   ├── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/binary-arm/">binary-arm</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-arm/Packages">Packages</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-arm/Packages.gz">Packages.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-arm/Packages.gz.new">Packages.gz.new</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-arm/Packages.new">Packages.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-arm/Release">Release</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   ├── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/binary-armel/">binary-armel</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-armel/Packages">Packages</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-armel/Packages.gz">Packages.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-armel/Packages.gz.new">Packages.gz.new</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-armel/Packages.new">Packages.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-armel/Release">Release</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   ├── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/binary-armhf/">binary-armhf</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-armhf/Packages">Packages</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-armhf/Packages.gz">Packages.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-armhf/Packages.gz.new">Packages.gz.new</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-armhf/Packages.new">Packages.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-armhf/Release">Release</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   ├── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/binary-i386/">binary-i386</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-i386/Packages">Packages</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-i386/Packages.gz">Packages.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-i386/Packages.gz.new">Packages.gz.new</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-i386/Packages.new">Packages.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-i386/Release">Release</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   ├── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/binary-iphoneos-arm/">binary-iphoneos-arm</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-iphoneos-arm/Packages">Packages</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-iphoneos-arm/Packages.gz">Packages.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-iphoneos-arm/Packages.gz.new">Packages.gz.new</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-iphoneos-arm/Packages.new">Packages.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-iphoneos-arm/Release">Release</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   ├── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-amd64/">binary-kfreebsd-amd64</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-amd64/Packages">Packages</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-amd64/Packages.gz">Packages.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-amd64/Packages.gz.new">Packages.gz.new</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-amd64/Packages.new">Packages.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-amd64/Release">Release</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   ├── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-i386/">binary-kfreebsd-i386</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-i386/Packages">Packages</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-i386/Packages.gz">Packages.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-i386/Packages.gz.new">Packages.gz.new</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-i386/Packages.new">Packages.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-kfreebsd-i386/Release">Release</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   ├── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/binary-mips/">binary-mips</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-mips/Packages">Packages</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-mips/Packages.gz">Packages.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-mips/Packages.gz.new">Packages.gz.new</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-mips/Packages.new">Packages.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-mips/Release">Release</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   ├── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/binary-mipsel/">binary-mipsel</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-mipsel/Packages">Packages</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-mipsel/Packages.gz">Packages.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-mipsel/Packages.gz.new">Packages.gz.new</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   │   ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-mipsel/Packages.new">Packages.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   │   └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/binary-mipsel/Release">Release</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   └── <a class="DIR" href="http://repo.daniil.it/dists/lenny/main/source/">source</a><br>
 	│   &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/source/Release">Release</a><br>
-	│   &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/source/Sources.gz">Sources.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/source/Sources.gz">Sources.gz</a><br>
+	│   &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/main/source/Sources.gz.new">Sources.gz.new</a><br>
 	│   &nbsp;&nbsp;&nbsp; ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/Release">Release</a><br>
-	│   &nbsp;&nbsp;&nbsp; └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/Release.gpg">Release.gpg</a><br>
+	│   &nbsp;&nbsp;&nbsp; ├── <a class="NORM" href="http://repo.daniil.it/dists/lenny/Release.gpg">Release.gpg</a><br>
+	│   &nbsp;&nbsp;&nbsp; └── <a class="NORM" href="http://repo.daniil.it/dists/lenny/Release.new">Release.new</a><br>
 	├── <a class="DIR" href="http://repo.daniil.it/pool/">pool</a><br>
 	│   └── <a class="DIR" href="http://repo.daniil.it/pool/main/">main</a><br>
 	│   &nbsp;&nbsp;&nbsp; ├── <a class="DIR" href="http://repo.daniil.it/pool/main/d/">d</a><br>
@@ -188,7 +211,7 @@
 	</p>
 	<p>
 
-36 directories, 119 files
+36 directories, 142 files
 	<br><br>
 	</p>
 	<hr>
