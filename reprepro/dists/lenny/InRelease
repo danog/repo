@@ -5,126 +5,126 @@ Origin: Daniil Gentili <daniil.gentili.dg@gmail.com>
 Label: Repo by Daniil Gentili
 Suite: stable
 Codename: lenny
-Date: Tue, 17 Nov 2016 15:06:38 UTC
+Date: Fri, 19 Feb 2016 17:43:29 UTC
 Architectures: i386 amd64 armhf armel arm mips mipsel kfreebsd-amd64 kfreebsd-i386 iphoneos-arm
 Components: main
 Description: Repo for packages created by Daniil Gentili.
 MD5Sum:
- 5b044197386ee0047f3119f6cacfb26d 3099 main/binary-i386/Packages
- 99550291c8723ed474df18f48e09d212 1307 main/binary-i386/Packages.gz
+ 8e03734021d954ba84244645402814f2 3097 main/binary-i386/Packages
+ 02dd3a8c6712f25d61e49007fd46d69b 1305 main/binary-i386/Packages.gz
  7a3ba6d4838c70d2188a433ba046cc09 192 main/binary-i386/Release
- 5b044197386ee0047f3119f6cacfb26d 3099 main/binary-amd64/Packages
- 99550291c8723ed474df18f48e09d212 1307 main/binary-amd64/Packages.gz
+ 8e03734021d954ba84244645402814f2 3097 main/binary-amd64/Packages
+ 02dd3a8c6712f25d61e49007fd46d69b 1305 main/binary-amd64/Packages.gz
  89e7b412c768c8fef4ff3b5144a99b40 193 main/binary-amd64/Release
- 819b119ef3322f18688d86662aa173f7 9792 main/binary-armhf/Packages
- b1e8315b4b9f4fbebd522306944f482a 2568 main/binary-armhf/Packages.gz
+ d3dd916920ca503d0293ff757fbf083a 9790 main/binary-armhf/Packages
+ a63146bc8a0837d1b0cc75bdbb7f9ad1 2566 main/binary-armhf/Packages.gz
  41b097f3f6d3d7a2f354dabe2a7ea40f 193 main/binary-armhf/Release
- 5b044197386ee0047f3119f6cacfb26d 3099 main/binary-armel/Packages
- 99550291c8723ed474df18f48e09d212 1307 main/binary-armel/Packages.gz
+ 8e03734021d954ba84244645402814f2 3097 main/binary-armel/Packages
+ 02dd3a8c6712f25d61e49007fd46d69b 1305 main/binary-armel/Packages.gz
  172a59e37f142400aca1226de6bd78d7 193 main/binary-armel/Release
- 17de13574a45276cd667743f6bcf324b 1248 main/binary-arm/Packages
- 0aa74f9fe0bc76f50cce59a576d72bb2 667 main/binary-arm/Packages.gz
+ 5da878387ab39d961202e05b2aebfd3e 1246 main/binary-arm/Packages
+ 339372d5bb95c6998af9e29f2e6c288c 669 main/binary-arm/Packages.gz
  aafcaef5ad2bb15ad9c1519b794edf99 191 main/binary-arm/Release
- 5b044197386ee0047f3119f6cacfb26d 3099 main/binary-mips/Packages
- 99550291c8723ed474df18f48e09d212 1307 main/binary-mips/Packages.gz
+ 8e03734021d954ba84244645402814f2 3097 main/binary-mips/Packages
+ 02dd3a8c6712f25d61e49007fd46d69b 1305 main/binary-mips/Packages.gz
  ac6fb97a8427ea17aa38698d28128942 192 main/binary-mips/Release
- 5b044197386ee0047f3119f6cacfb26d 3099 main/binary-mipsel/Packages
- 99550291c8723ed474df18f48e09d212 1307 main/binary-mipsel/Packages.gz
+ 8e03734021d954ba84244645402814f2 3097 main/binary-mipsel/Packages
+ 02dd3a8c6712f25d61e49007fd46d69b 1305 main/binary-mipsel/Packages.gz
  1f21b26f2bdd86d43d15d1c39fedee08 194 main/binary-mipsel/Release
- 5b044197386ee0047f3119f6cacfb26d 3099 main/binary-kfreebsd-amd64/Packages
- 99550291c8723ed474df18f48e09d212 1307 main/binary-kfreebsd-amd64/Packages.gz
+ 8e03734021d954ba84244645402814f2 3097 main/binary-kfreebsd-amd64/Packages
+ 02dd3a8c6712f25d61e49007fd46d69b 1305 main/binary-kfreebsd-amd64/Packages.gz
  04af9712213ea01b388cfda96a33aef0 202 main/binary-kfreebsd-amd64/Release
- 5b044197386ee0047f3119f6cacfb26d 3099 main/binary-kfreebsd-i386/Packages
- 99550291c8723ed474df18f48e09d212 1307 main/binary-kfreebsd-i386/Packages.gz
+ 8e03734021d954ba84244645402814f2 3097 main/binary-kfreebsd-i386/Packages
+ 02dd3a8c6712f25d61e49007fd46d69b 1305 main/binary-kfreebsd-i386/Packages.gz
  104970ef4c99ecfa8d8d01c02e839bd0 201 main/binary-kfreebsd-i386/Release
- 5b044197386ee0047f3119f6cacfb26d 3099 main/binary-iphoneos-arm/Packages
- 99550291c8723ed474df18f48e09d212 1307 main/binary-iphoneos-arm/Packages.gz
+ 8e03734021d954ba84244645402814f2 3097 main/binary-iphoneos-arm/Packages
+ 02dd3a8c6712f25d61e49007fd46d69b 1305 main/binary-iphoneos-arm/Packages.gz
  f8277f0030643a1a9845a165639899f0 200 main/binary-iphoneos-arm/Release
- 78205b957bb1157048a15c00948d0ecb 1710 main/source/Sources
- b6acd169c9232426f405ef03d7156493 747 main/source/Sources.gz
+ 90d82a13f41fd1db3f0c0b7ff4ded3d2 1703 main/source/Sources
+ 4a22b8229702202c6867b86b348f121c 747 main/source/Sources.gz
  561b2e06832fa631b9f5ba8d27c602cc 194 main/source/Release
 SHA1:
- 4a274bd21e72e86c3b9d6a506728ca629e4b4d7b 3099 main/binary-i386/Packages
- e954e06901fa2499c89915d38d3def7543ab19f0 1307 main/binary-i386/Packages.gz
+ adcfa4d5c305fb9be80876144d312050deb6b00e 3097 main/binary-i386/Packages
+ 1253f4a26d8ffd4b9d4e3b1d48714601c744bb26 1305 main/binary-i386/Packages.gz
  73bd8a2f44474345109e7dc09df54762223f696f 192 main/binary-i386/Release
- 4a274bd21e72e86c3b9d6a506728ca629e4b4d7b 3099 main/binary-amd64/Packages
- e954e06901fa2499c89915d38d3def7543ab19f0 1307 main/binary-amd64/Packages.gz
+ adcfa4d5c305fb9be80876144d312050deb6b00e 3097 main/binary-amd64/Packages
+ 1253f4a26d8ffd4b9d4e3b1d48714601c744bb26 1305 main/binary-amd64/Packages.gz
  76a9564aaf57b2ecbfe76c44891f67d26511dbe4 193 main/binary-amd64/Release
- b8e67dfcbbbac7d2290794e0dbf14122562e9ba8 9792 main/binary-armhf/Packages
- 41edacd9d4ac02fcba3391db81c8641fe34dde80 2568 main/binary-armhf/Packages.gz
+ 63e16114ef29b5e5f53580076aaff80009b7d47b 9790 main/binary-armhf/Packages
+ eacc3f3eabaae45c80462a2584ec19a507b8e53a 2566 main/binary-armhf/Packages.gz
  4cc27b6bc4717fa217a429df096840345df7a16f 193 main/binary-armhf/Release
- 4a274bd21e72e86c3b9d6a506728ca629e4b4d7b 3099 main/binary-armel/Packages
- e954e06901fa2499c89915d38d3def7543ab19f0 1307 main/binary-armel/Packages.gz
+ adcfa4d5c305fb9be80876144d312050deb6b00e 3097 main/binary-armel/Packages
+ 1253f4a26d8ffd4b9d4e3b1d48714601c744bb26 1305 main/binary-armel/Packages.gz
  63c8ddbb56c9714924fc4c0baddf297df057586e 193 main/binary-armel/Release
- 61601fc16fab3aad0f0e977d805c24990bbaed35 1248 main/binary-arm/Packages
- 481c706e7772b05533a9f11189170402f1db45c1 667 main/binary-arm/Packages.gz
+ c19c9525e264a281c1c4fc4db9424c2e37853aa6 1246 main/binary-arm/Packages
+ db3db08a447d2d2ea57841be2c09df08830d88ea 669 main/binary-arm/Packages.gz
  3a8fa3e8cadc621a9254f462e4560ad98ba27572 191 main/binary-arm/Release
- 4a274bd21e72e86c3b9d6a506728ca629e4b4d7b 3099 main/binary-mips/Packages
- e954e06901fa2499c89915d38d3def7543ab19f0 1307 main/binary-mips/Packages.gz
+ adcfa4d5c305fb9be80876144d312050deb6b00e 3097 main/binary-mips/Packages
+ 1253f4a26d8ffd4b9d4e3b1d48714601c744bb26 1305 main/binary-mips/Packages.gz
  42614f4080ce1848f5cea5c46694c9d9dd6a6f8f 192 main/binary-mips/Release
- 4a274bd21e72e86c3b9d6a506728ca629e4b4d7b 3099 main/binary-mipsel/Packages
- e954e06901fa2499c89915d38d3def7543ab19f0 1307 main/binary-mipsel/Packages.gz
+ adcfa4d5c305fb9be80876144d312050deb6b00e 3097 main/binary-mipsel/Packages
+ 1253f4a26d8ffd4b9d4e3b1d48714601c744bb26 1305 main/binary-mipsel/Packages.gz
  779ca235ff47bad0aff374bdde907966e7ecc906 194 main/binary-mipsel/Release
- 4a274bd21e72e86c3b9d6a506728ca629e4b4d7b 3099 main/binary-kfreebsd-amd64/Packages
- e954e06901fa2499c89915d38d3def7543ab19f0 1307 main/binary-kfreebsd-amd64/Packages.gz
+ adcfa4d5c305fb9be80876144d312050deb6b00e 3097 main/binary-kfreebsd-amd64/Packages
+ 1253f4a26d8ffd4b9d4e3b1d48714601c744bb26 1305 main/binary-kfreebsd-amd64/Packages.gz
  ecb2b8171f3b97bfabd8255532029ed805f54f02 202 main/binary-kfreebsd-amd64/Release
- 4a274bd21e72e86c3b9d6a506728ca629e4b4d7b 3099 main/binary-kfreebsd-i386/Packages
- e954e06901fa2499c89915d38d3def7543ab19f0 1307 main/binary-kfreebsd-i386/Packages.gz
+ adcfa4d5c305fb9be80876144d312050deb6b00e 3097 main/binary-kfreebsd-i386/Packages
+ 1253f4a26d8ffd4b9d4e3b1d48714601c744bb26 1305 main/binary-kfreebsd-i386/Packages.gz
  72b8e9f0ace016499e7acaa9ba94d9295cfc5670 201 main/binary-kfreebsd-i386/Release
- 4a274bd21e72e86c3b9d6a506728ca629e4b4d7b 3099 main/binary-iphoneos-arm/Packages
- e954e06901fa2499c89915d38d3def7543ab19f0 1307 main/binary-iphoneos-arm/Packages.gz
+ adcfa4d5c305fb9be80876144d312050deb6b00e 3097 main/binary-iphoneos-arm/Packages
+ 1253f4a26d8ffd4b9d4e3b1d48714601c744bb26 1305 main/binary-iphoneos-arm/Packages.gz
  8cd039eb6d13cc19f84987ab457b3598c456860b 200 main/binary-iphoneos-arm/Release
- 4794380be199b8e91fc22a612a45e13e3936dd27 1710 main/source/Sources
- 98022fb09afc017c2f3e01242aa230ff8be2a64c 747 main/source/Sources.gz
+ 273939951e9f520b93d013e06f73e57ba872ab62 1703 main/source/Sources
+ 12257cc337830ee6f4666c9547f9882293056ee7 747 main/source/Sources.gz
  103cf0bb9a7312853f732aced84ca38cbaa4a644 194 main/source/Release
 SHA256:
- e386dbea04a905e47fb1dfe60310014f9fff43388d2d2cab713200d2908de912 3099 main/binary-i386/Packages
- 81e1c2e43d1eb639a024867d58d2418d07d63d1fa4f2aef16856e21ebb3d9710 1307 main/binary-i386/Packages.gz
+ 3d5e132fcf73bd1bdbde40c47f43d19fbd98613c8eef4a335f8bbb3b1d31cff2 3097 main/binary-i386/Packages
+ c7b9c1794808b115003327cc37435bb607f0bdfb80d0f0048e499ff49b03655b 1305 main/binary-i386/Packages.gz
  5100818d40c5c0259b5c3d93d88c3aa2fb06c4302c03493a0efa7081b66ce991 192 main/binary-i386/Release
- e386dbea04a905e47fb1dfe60310014f9fff43388d2d2cab713200d2908de912 3099 main/binary-amd64/Packages
- 81e1c2e43d1eb639a024867d58d2418d07d63d1fa4f2aef16856e21ebb3d9710 1307 main/binary-amd64/Packages.gz
+ 3d5e132fcf73bd1bdbde40c47f43d19fbd98613c8eef4a335f8bbb3b1d31cff2 3097 main/binary-amd64/Packages
+ c7b9c1794808b115003327cc37435bb607f0bdfb80d0f0048e499ff49b03655b 1305 main/binary-amd64/Packages.gz
  b3f2b6ca0551a08f7068a030232e80c8d40c2f097c05d8e2ffd1f0996aa047ad 193 main/binary-amd64/Release
- c82ad23afc3deb692a01808f2162fbcdc7c2d5a23748beb13d5280a69a1cf1f8 9792 main/binary-armhf/Packages
- d284b37781f0300a2af273053d716fe0ba01e45aa98a1f0984ffcc7de413b9a8 2568 main/binary-armhf/Packages.gz
+ 7df7d6246ca23ace7fd1a19b312eefc19962e9a49e75985efc43162613a29b6e 9790 main/binary-armhf/Packages
+ 7ba5782a1d58384875f5913792accd33fe707604e858321a6c5ef9aab0ab00f7 2566 main/binary-armhf/Packages.gz
  16deac074c65676aa7e15f80bc4cda1d7e33467ce08279371512b46f1ce35af8 193 main/binary-armhf/Release
- e386dbea04a905e47fb1dfe60310014f9fff43388d2d2cab713200d2908de912 3099 main/binary-armel/Packages
- 81e1c2e43d1eb639a024867d58d2418d07d63d1fa4f2aef16856e21ebb3d9710 1307 main/binary-armel/Packages.gz
+ 3d5e132fcf73bd1bdbde40c47f43d19fbd98613c8eef4a335f8bbb3b1d31cff2 3097 main/binary-armel/Packages
+ c7b9c1794808b115003327cc37435bb607f0bdfb80d0f0048e499ff49b03655b 1305 main/binary-armel/Packages.gz
  2590b10b7f74b9bb59c4485b4aeff8422c70babbf00096a16813d3d4ccf3d068 193 main/binary-armel/Release
- fb2cd575253a150db3e27a529e22d4af7ca1334dd94877fbefe65bd008524ac2 1248 main/binary-arm/Packages
- b54953115d1caa67e3791cf02631995eeb49fd925046bf86a5b19318773806d5 667 main/binary-arm/Packages.gz
+ aa6cf6bc08c95353f021f33497a73a8694f320cf11f7fbc3bd2b7710e4cea95b 1246 main/binary-arm/Packages
+ 7171ed3efb9546f4025f387ca13bf48f2a3a90dfd145f198818ae42b63c543c4 669 main/binary-arm/Packages.gz
  14f03380f7684e846ba6cb08d66deae47c7c04c38af18f84c81ec1bee1c718b8 191 main/binary-arm/Release
- e386dbea04a905e47fb1dfe60310014f9fff43388d2d2cab713200d2908de912 3099 main/binary-mips/Packages
- 81e1c2e43d1eb639a024867d58d2418d07d63d1fa4f2aef16856e21ebb3d9710 1307 main/binary-mips/Packages.gz
+ 3d5e132fcf73bd1bdbde40c47f43d19fbd98613c8eef4a335f8bbb3b1d31cff2 3097 main/binary-mips/Packages
+ c7b9c1794808b115003327cc37435bb607f0bdfb80d0f0048e499ff49b03655b 1305 main/binary-mips/Packages.gz
  23f0ccad5bab1931cb3e302169c2a1730f64d3409c83b6d730f9fe4b978b9d3d 192 main/binary-mips/Release
- e386dbea04a905e47fb1dfe60310014f9fff43388d2d2cab713200d2908de912 3099 main/binary-mipsel/Packages
- 81e1c2e43d1eb639a024867d58d2418d07d63d1fa4f2aef16856e21ebb3d9710 1307 main/binary-mipsel/Packages.gz
+ 3d5e132fcf73bd1bdbde40c47f43d19fbd98613c8eef4a335f8bbb3b1d31cff2 3097 main/binary-mipsel/Packages
+ c7b9c1794808b115003327cc37435bb607f0bdfb80d0f0048e499ff49b03655b 1305 main/binary-mipsel/Packages.gz
  2d07bd747a1cedd2db010ac40713ea6d8bf9f9288bb4a436204b0410488567a7 194 main/binary-mipsel/Release
- e386dbea04a905e47fb1dfe60310014f9fff43388d2d2cab713200d2908de912 3099 main/binary-kfreebsd-amd64/Packages
- 81e1c2e43d1eb639a024867d58d2418d07d63d1fa4f2aef16856e21ebb3d9710 1307 main/binary-kfreebsd-amd64/Packages.gz
+ 3d5e132fcf73bd1bdbde40c47f43d19fbd98613c8eef4a335f8bbb3b1d31cff2 3097 main/binary-kfreebsd-amd64/Packages
+ c7b9c1794808b115003327cc37435bb607f0bdfb80d0f0048e499ff49b03655b 1305 main/binary-kfreebsd-amd64/Packages.gz
  216ebda00320d53d88c443c32588b155184dbb059359ada61d7a8c88829ed599 202 main/binary-kfreebsd-amd64/Release
- e386dbea04a905e47fb1dfe60310014f9fff43388d2d2cab713200d2908de912 3099 main/binary-kfreebsd-i386/Packages
- 81e1c2e43d1eb639a024867d58d2418d07d63d1fa4f2aef16856e21ebb3d9710 1307 main/binary-kfreebsd-i386/Packages.gz
+ 3d5e132fcf73bd1bdbde40c47f43d19fbd98613c8eef4a335f8bbb3b1d31cff2 3097 main/binary-kfreebsd-i386/Packages
+ c7b9c1794808b115003327cc37435bb607f0bdfb80d0f0048e499ff49b03655b 1305 main/binary-kfreebsd-i386/Packages.gz
  f585d1d6501fc1eddf6c771afe73c219bd0ba67398d5c557c13b6e8bb97cb018 201 main/binary-kfreebsd-i386/Release
- e386dbea04a905e47fb1dfe60310014f9fff43388d2d2cab713200d2908de912 3099 main/binary-iphoneos-arm/Packages
- 81e1c2e43d1eb639a024867d58d2418d07d63d1fa4f2aef16856e21ebb3d9710 1307 main/binary-iphoneos-arm/Packages.gz
+ 3d5e132fcf73bd1bdbde40c47f43d19fbd98613c8eef4a335f8bbb3b1d31cff2 3097 main/binary-iphoneos-arm/Packages
+ c7b9c1794808b115003327cc37435bb607f0bdfb80d0f0048e499ff49b03655b 1305 main/binary-iphoneos-arm/Packages.gz
  433864b87498f13fbc5c4dceba143cbc71e3d171556b385ce7850741be740a09 200 main/binary-iphoneos-arm/Release
- 19cea7e7ff461729e0d2216e8b5fd6bfc5fe5d86328bcc438a3cb4c609082554 1710 main/source/Sources
- 88cbf583146c3b7d89cdb0d29d5b174c7ca27bd779f574f82449eb5e70b932ef 747 main/source/Sources.gz
+ b57b709bd5af7f894021a1da9b7126e208ac1305bb7bd90b8c32852d76643998 1703 main/source/Sources
+ 58b9a669806d2d859837a0c24044e702033c2a7bceeeda30c7ad5d0d6bb35cbf 747 main/source/Sources.gz
  689ec7e4832c5d11d665947732f6871d485c281996e90e02dc2def1eea82017a 194 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQIcBAEBAgAGBQJWS0J+AAoJEHK5f9HZZyyTUPkP/3zi9iSR3CP1FnTKSwdn/2X6
-1JTO9blhrt0sxeej/7IISPzNh1ri54Tz32z6RA5MLABXC05rpoT7WRgtPe4oNSee
-QUFIcTUAuuhUQGOMZOWrAKRkrhIWiLCXqUTjHXVbr/TwUnuk/jwUUL2rwMDAOecS
-cTWzYEMfMe3zmN/ktaRpJqEHqEVad+F+KDlzuMeGbyY/lwegFd9489UbFPasXN7c
-SAXVv4ylUGlGN4btLXaMMQOGIPs1m3CitByAGC7qaWBc1u5J65OtGeCWipo3vJTE
-96XLn9/mi9Bg+M/oKHc+G6DY+CT/h/0Zq8fNPC5LFZ+hWr/0SfbBKCJcDX5sHBEW
-qP5jRyFr60gzwZWxUSB8RYknaR32ps9jhadFCDGb/+VXavvYYhSGbkk9//CsQ/dV
-TglnPpwaf7JP4SJ0eDkeT0y1XrbadCoSGFaJvny0FDZaLX3B4bfBWp7Hp6ar7k+l
-xf0pGzo2SwC9B30rPp+LNzIAgUzDbpaGOvTQd6+AO4hLluuW8xBgUZaDn0JRJRr3
-DLZ4VK+8KXZczuPkiLbwCavug0Um1XCdfRHp0SxsU4XYvA/GtRL8xE7N9rIB+EJJ
-yf2ZF5HYekzIN6K6/uPENWaLrayI5B1Ga+5+XtVtMtc2At6OcMdprtPGH7lNgrl1
-SFzJKi+wzjo8q+p4Gs2D
-=lk6C
+iQIcBAEBAgAGBQJWx1REAAoJEHK5f9HZZyyTPMcP/igUTMlO7GDu/ofkLMxyj3eb
+Z2qeDA1GX6Noz2NALdtU5F9BrGI52P0Vl8JyGxtYELHOoYBUV1EYHmnQ6xqW/x/5
+ZL5/KNDVjiK+toHjHQi2s2g44BZRM0WKUraVOj/9A6M9r2l8S5RHIHAigp5bGNNd
+UAvXBXX31+3IFx92VEcCLiv+KK7TAre1cQlVs99Sy5plcpMQjQD4MNYXU5v1dwwx
+jyfk4qRwiZKmDRqOU+M/WyMswIoGZvQ70IQT6aVx19+wL1i++HYqkHNAfogNwxKR
+CTWlF9dItbbC0LmFVya3WWkWo9mCKObiMcLioO8FwcCd3ufOKmdfGEKbESdTHlFA
+AMGqv8R8skT/WcI9XIWNYQMCzu2WA2q4cFlmbKN71B46ClcCTdmQ5bM2LpE+IndQ
+8J6iO+xMjyk/YfySd0XnvCA6PEQO/J7G6AOXYFRme+Bgtj3x3hE+4aOYsasvoqTF
+fcQdWjV/gNu7U9T7oFIjvoQ1Y364oFOHhdt0hM0CTJ5BB1qIo+oILsf68bbGdxaG
+yCalJywATL5FKY7udTIqGglAYHesJskhNnFMdntIQn0XqA9W0peHhuQbAnRbg40k
+SVMxy9F3efJX+AwSHW4azFwNj0pCjdvBkR4f+LlvVQtYyfYZ/USDXBNyEGWoysuf
+4EOCJy/G3tTRRrgcmWoc
+=LppL
 -----END PGP SIGNATURE-----
