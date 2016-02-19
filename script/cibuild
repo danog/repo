@@ -4,13 +4,9 @@
 sudo apt-get update &>/dev/null
 sudo apt-get install reprepro gnupg expect tree tmux -y >/dev/null
 
-tar -xzf enc.tar.gz
-gpg --allow-secret-key-import --import mygpgkey_sec.gpg
 mkdir temp
 temp="$PWD/temp"
 
-reprepro="$PWD/ex"
-chmod +x ${reprepro}
 
 gitsync() {
 branch="${1}"
@@ -37,26 +33,6 @@ git log -1 --pretty=%B | grep -q madebytravisci && exit 0
 root="$PWD"
 ########################################
 cd reprepro
-[ "$(ls $root/debs)" != "" ] && {
-# Import debs into reprepro
-
-for f in $root/debs/*; do {
-deb="$(ls $f/*.deb)"
-changes="$(ls $f/*.changes)"
-dsc="$(ls $f/*.dsc)"
-
-name="$(dpkg --info ${deb} | grep Package | sed 's/.*Package:\s//')"
-${reprepro} remove lenny ${name}
-
-[ "$changes" != "" ] && {
-${reprepro} include lenny ${changes} && rm -r $f
-} || {
-${reprepro} includedeb lenny ${deb} && ${reprepro} includedsc lenny ${dsc} && rm -r $f
-}
-total="${total}, ${name}"
-rm -r $f
-}; done
-}
 tree  -T "Daniil's repo" -C -H http://repo.daniil.it -o tree.html
 cp -a * $temp
 
