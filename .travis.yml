@@ -12,3 +12,5 @@ addons:
     - sed
 script: ". ./script/cibuild"
 
+before_install:
+ - openssl aes-256-cbc -pass "pass:$pass" -in key.gpg.enc -out key.gpg -d -a
