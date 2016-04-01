@@ -1,5 +1,6 @@
 ## This a Package repo. 
 [![Build Status](https://travis-ci.org/danog/repo.svg?branch=master)](https://travis-ci.org/danog/repo)
+[![Repo Status](https://status.daniil.it/component/10/shield)](https://status.daniil.it)
 
 To add it to your system, execute this command.
 
