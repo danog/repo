@@ -1,0 +1,83 @@
+Package: danuntu-tools
+Version: 1.0
+Architecture: all
+Maintainer: Daniil Gentili <daniil@daniil.it>
+Installed-Size: 40
+Homepage: http://danuntu.magix.net
+Priority: optional
+Section: unknown
+Filename: pool/main/d/danuntu-tools/danuntu-tools_1.0_all.deb
+Size: 5848
+SHA256: 70c903d768ae7e71f294bf825ef30ec08412a4e668966d1cce5e757ced4ac866
+SHA1: 0c1c056483c08d02b4072db41324df02cba5611e
+MD5sum: ffdc5a3c915215e5c2c10b8de1c537a0
+Description: Configuration and upgrade tools for danuntu
+ Includes danuntu-update (script to update danuntu and its packages) and danuntu-config (script to configure danuntu during initial installation and maybe later).
+
+Package: learn-bash
+Version: 1.1.27
+Architecture: all
+Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Installed-Size: 10
+Depends: wget, bash, sed
+Homepage: http://daniil.it/learn-bash
+Priority: optional
+Section: misc
+Filename: pool/main/l/learn-bash/learn-bash_1.1.27_all.deb
+Size: 5840
+SHA256: 4c70b25bdea42cd40c5c6a7a12f2c7ff54756c3309a85e86f02a565db6068968
+SHA1: ce2ca02111033566ab0a6bdebed2829b2182e410
+MD5sum: adb5c6b5cd7994beda6625b55a09529f
+Description: Script to learn bash scripting. Created by Daniil Gentili.
+
+Package: mediaset-dl
+Version: 1.1-1
+Architecture: all
+Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Installed-Size: 51
+Depends: wget
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: tools
+Filename: pool/main/m/mediaset-dl/mediaset-dl_1.1-1_all.deb
+Size: 7872
+SHA256: 0b034ef03b8727889365b04cc685312190fac1ab184100ade5868fd87dc076c2
+SHA1: 3177e48381dcb01cd42533a3eee92a1199326663
+MD5sum: edc5792560df244cd34410132304c62b
+Description: Mediaset downloader script
+ This script can be used to download videos from the italian Mediaset website.
+
+Package: raitv-bash-dl
+Version: 1.1.4
+Architecture: all
+Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Installed-Size: 64
+Depends: wget
+Homepage: http://git.daniil.eu.org/rai.tv-bash-dl
+Priority: optional
+Section: misc
+Filename: pool/main/r/raitv-bash-dl/raitv-bash-dl_1.1.4_all.deb
+Size: 11936
+SHA256: cb06504925485c15edc1389758fa1d1d242d1bcf78ee6ae06db4d39b468c454e
+SHA1: bb2744f6854d5335abb1722142dbd061b6fe3b4e
+MD5sum: d8cdbcdce96f6b5b98292ac5debf02da
+Description: Script to download Rai.TV videos
+ This package installs the rai.sh bash script that allows you to download videos from the Italian Rai.TV website.
+
+Package: video-dl
+Version: 4.0.83
+Architecture: all
+Maintainer: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Installed-Size: 76
+Depends: wget, bash, sed
+Homepage: http://daniil.it/video-dl
+Priority: optional
+Section: misc
+Filename: pool/main/v/video-dl/video-dl_4.0.83_all.deb
+Size: 22994
+SHA256: 92dd96c30727c897e42a3e845f4d8ceb23f01b7823e996c483fab1c6e2a53ca2
+SHA1: 292d1470e21312eb0746c28d1238ca83243c6a1d
+MD5sum: e42f8d3c7f7e35027244c7579e1a32c8
+Description: Video Download script
+ This bash script can be used to download videos from any website, including Youtube, Rai.tv, Mediaset, Witty tv and LA7. The API of this script is constantly updated to support even more websites. For more info see the manpages.
+

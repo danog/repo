@@ -1,0 +1,9 @@
+# Site settings
+title: Repo
+tag_text: Debian package repo
+description: Debian package repo, created by Daniil Gentili
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md"]

@@ -1,0 +1,8 @@
+Origin: Daniil Gentili <daniil.gentili.dg@gmail.com>
+Label: Repo by Daniil Gentili
+Suite: stable
+Codename: lenny
+Architectures: i386 amd64 armhf armel arm mips mipsel kfreebsd-amd64 kfreebsd-i386 iphoneos-arm source
+Components: main
+Description: Repo for packages created by Daniil Gentili.
+SignWith: C5C1D8BA
